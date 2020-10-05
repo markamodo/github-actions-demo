@@ -32,5 +32,8 @@ jobs:
     - name: Build
       run: go build -v .
 
+    - name: Echo
+      run: "Hello World!"
+
     # - name: Test
     #   run: go test -v .
